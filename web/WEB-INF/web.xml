@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>ListServlet</servlet-name>
+        <servlet-class>servlet.ListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListServlet</servlet-name>
+        <url-pattern>/list.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MaleServlet</servlet-name>
+        <servlet-class>servlet.MaleServelet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MaleServlet</servlet-name>
+        <url-pattern>/male.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FemaleServlet</servlet-name>
+        <servlet-class>servlet.FemaleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FemaleServlet</servlet-name>
+        <url-pattern>/female.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginToJSPServlet</servlet-name>
+        <servlet-class>servlet.LoginToJSPServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginToJSPServlet</servlet-name>
+        <url-pattern>/go.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewServlet</servlet-name>
+        <servlet-class>servlet.ViewServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewServlet</servlet-name>
+        <url-pattern>/view.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DoAddServlet</servlet-name>
+        <servlet-class>servlet.DoAddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoAddServlet</servlet-name>
+        <url-pattern>/doAdd.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ModifyServlet</servlet-name>
+        <servlet-class>servlet.ModifyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifyServlet</servlet-name>
+        <url-pattern>/modify.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DoModifyServlet</servlet-name>
+        <servlet-class>servlet.DoModifyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoModifyServlet</servlet-name>
+        <url-pattern>/doModify.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DoSearchServlet</servlet-name>
+        <servlet-class>servlet.DoSearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoSearchServlet</servlet-name>
+        <url-pattern>/doSearch.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DoDeleteServlet</servlet-name>
+        <servlet-class>servlet.DoDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoDeleteServlet</servlet-name>
+        <url-pattern>/doDelete.do</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/doLogin.do</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,44 @@
+tr:nth-child(1) {
+    background-color: rgba(119,136,170, 0.7);
+    color: #ffffff;
+    font-size: large;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(232, 232, 232, 0.7);
+}
+
+td {
+    border-bottom: 1px solid #888888;
+    padding: 5px;
+}
+input #text {
+    margin-bottom: 5px;
+}
+input #search {
+
+
+    background: rgb(32, 142, 218);
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #e8e8e8;
+
+}
+
+#add {
+    margin-right: 20px;
+}
